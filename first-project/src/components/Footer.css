@@ -1,0 +1,13 @@
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffc0f1;
+    color: white;
+  }
+  
+  footer .social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  

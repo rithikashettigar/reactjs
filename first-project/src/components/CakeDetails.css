@@ -1,0 +1,58 @@
+.cake-details {
+  padding: 40px 20px;
+  background-color: #ffc2f2;
+  text-align: center;
+}
+
+.cake-info {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+}
+
+.image-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.details {
+  max-width: 500px;
+  text-align: left;
+}
+
+.details h3 {
+  font-size: 24px;
+}
+
+.details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.details label {
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+}
+
+.details select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.details button {
+  padding: 10px 20px;
+  background-color: #c167fd;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.details button:hover {
+  background-color: #ff6347;
+}

@@ -1,0 +1,32 @@
+.gallery {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+}
+
+.item-1 {
+  background-image:url(../../public/image/detail.jpeg) ;
+}
+
+.item-2 {
+  background-image:url(../../public/image/wedding.jpeg);
+}
+
+.item-3 {
+  background-image: url(../../public/image/cake.jpeg);
+}

@@ -1,0 +1,42 @@
+.categories {
+  padding: 40px 20px;
+  background-color: #e495ff;
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.category-card {
+  background-color: #fdfdfd;
+  padding: 20px;
+  border-radius: 8px;
+  background-size: cover;  
+  background-position: center; 
+  height: 250px;  
+  color: rgba(5, 0, 0, 0.911);  
+}
+
+.category-card-1 {
+  background-image:url(../../public/image/unicorn.jpeg) ; 
+}
+
+.category-card-2 {
+  background-image: url(../../public/image/birthday.jpeg); 
+}
+
+.category-card-3 {
+  background-image: url(../../public/image/egglesss.jpeg); 
+}
+.category-card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.category-card p {
+  font-size: 16px;
+  color: #0a0101;  
+}
